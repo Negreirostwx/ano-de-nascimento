@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+let nome = prompt("Qual é o seu nome?");
+        let anoNascimento = prompt("Que ano você nasceu?");
+
+        const anoAtual = new Date().getFullYear();
+        const idade = anoAtual - anoNascimento;
+
+        document.write("Nome: " + nome);
+        document.write("<br>");
+        document.write("Idade: " + idade + "anos")
+
+    </script>
+</body>
+</html>
